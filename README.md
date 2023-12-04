@@ -1,4 +1,4 @@
-# SumTra: A Differentiable Pipeline for En-X Few-Shot Cross-Lingual Summarization
+# SumTra:  Differentiable Pipeline for Few-Shot Cross-Lingual Summarization
 
 The code repository for the XLS research paper with the same title.
 
