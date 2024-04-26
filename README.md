@@ -1,4 +1,5 @@
 # SumTra:  Differentiable Pipeline for Few-Shot Cross-Lingual Summarization
+### Paper accepted to appear at NAACL 2024
 
 The code repository for the XLS research paper with the same title.
 
@@ -69,7 +70,15 @@ providing the path to the trained checkpoint.
 ## Citation
 
 Please cite our paper in your work:
+### Note: Paper accepted to appear at NAACL 2024. Pre-print available in ArXiv.
 
 ```text
-To be added
+@misc{parnell2024sumtra,
+      title={SumTra: A Differentiable Pipeline for Few-Shot Cross-Lingual Summarization}, 
+      author={Jacob Parnell and Inigo Jauregi Unanue and Massimo Piccardi},
+      year={2024},
+      eprint={2403.13240},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
