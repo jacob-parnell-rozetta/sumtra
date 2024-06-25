@@ -1,6 +1,8 @@
 # SumTra:  Differentiable Pipeline for Few-Shot Cross-Lingual Summarization
 ### Paper accepted to appear at NAACL 2024
 
+Jacob Parnell, Inigo Jauregi Unanue, and Massimo Piccardi. 2024. SumTra: A Differentiable Pipeline for Few-Shot Cross-Lingual Summarization. In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), pages 2399–2415, Mexico City, Mexico. Association for Computational Linguistics.
+
 The code repository for the XLS research paper with the same title.
 
 ## Installation
@@ -70,15 +72,25 @@ providing the path to the trained checkpoint.
 ## Citation
 
 Please cite our paper in your work:
-### Note: Paper accepted to appear at NAACL 2024. Pre-print available in ArXiv.
+### Note: Paper accepted to appear at NAACL 2024.
 
 ```text
-@misc{parnell2024sumtra,
-      title={SumTra: A Differentiable Pipeline for Few-Shot Cross-Lingual Summarization}, 
-      author={Jacob Parnell and Inigo Jauregi Unanue and Massimo Piccardi},
-      year={2024},
-      eprint={2403.13240},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{parnell-etal-2024-sumtra,
+    title = "{S}um{T}ra: A Differentiable Pipeline for Few-Shot Cross-Lingual Summarization",
+    author = "Parnell, Jacob  and
+      Jauregi Unanue, Inigo  and
+      Piccardi, Massimo",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.133",
+    pages = "2399--2415",
+    abstract = "Cross-lingual summarization (XLS) generates summaries in a language different from that of the input documents (e.g., English to Spanish), allowing speakers of the target language to gain a concise view of their content. In the present day, the predominant approach to this task is to take a performing, pretrained multilingual language model (LM) and fine-tune it for XLS on the language pairs of interest. However, the scarcity of fine-tuning samples makes this approach challenging in some cases. For this reason, in this paper we propose revisiting the summarize-and-translate pipeline, where the summarization and translation tasks are performed in a sequence. This approach allows reusing the many, publicly-available resources for monolingual summarization and translation, obtaining a very competitive zero-shot performance. In addition, the proposed pipeline is completely differentiable end-to-end, allowing it to take advantage of few-shot fine-tuning, where available. Experiments over two contemporary and widely adopted XLS datasets (CrossSum and WikiLingua) have shown the remarkable zero-shot performance of the proposed approach, and also its strong few-shot performance compared to an equivalent multilingual LM baseline, that the proposed approach has been able to outperform in many languages with only 10{\%} of the fine-tuning samples.",
 }
+
 ```
